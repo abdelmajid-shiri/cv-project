@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="shiri.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="file:///C:/Users/HP/Documents/ronaldo.webp" alt="Photo de profil">
+            <h1> Palmerston</h1>
+            <p>Office Assistant</p>
+            <p>?? résidence mimosa , Mohammadia</p>
+            <p>??+212 687251579</p>
+            <p>??a.shiri@nischool.org</p>
+        </div>
+        <div class="section career-overview">
+            <h2>Career Overview</h2>
+            <p>I manage secretarial duties like sorting and sending mail as a professional. To keep the office tidy and clean for guests or clients, I maintain an inventory of office supplies and place fresh orders as needed.</p>
+        </div>
+        <div class="section education">
+            <h2>Education</h2>
+            <h3>Bachelor of Business Administration</h3>
+            <p>Fauget University | 2020</p>
+            <ul>
+                <li>Basic computer literacy skills</li>
+                <li>Organizational skills</li>
+                <li>Time management skills</li>
+            </ul>
+        </div>
+        <div class="section experience">
+            <h2>Experience</h2>
+            <h3>Office Staff</h3>
+            <p>Borcelle | January - present</p>
+            <ul>
+                <li>Set up appointments and set up the office in a way that is conducive to productivity</li>
+                <li>Answer phone calls and respond to emails</li>
+                <li>Organize and maintain files and records</li>
+            </ul>
+            <h3>Office Clerk</h3>
+            <p>Larana Inc. | May 2020 - June 2023</p>
+            <ul>
+                <li>Assist with basic bookkeeping tasks such as invoicing and processing purchase orders</li>
+                <li>Maintain and update office records</li>
+                <li>Assist with creating and updating records by entering data into the computer system</li>
+            </ul>
+        </div>
+        <div class="section reference">
+            <h2>Reference</h2>
+            <h3>bernaldo Silva</h3>
+            <p>hala madrid</p>
+            <p>??+212 687251579</p>
+            <p>??a.shiri@nischool.org</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.header h1 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.section p {
+    margin: 5px 0;
+}
+
+.contact-info, .education, .experience, .reference {
+    margin-bottom: 20px;
+}
+
+.contact-info p, .education p, .experience p, .reference p {
+    margin: 5px 0;
+}
+
+.experience h3, .education h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.experience p, .education p {
+    margin: 5px 0;
+}
